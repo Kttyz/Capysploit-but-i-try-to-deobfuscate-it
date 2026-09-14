@@ -1,0 +1,179 @@
+Just notes to self on what ive deobfuscated and found so far:
+
+Credits
+-------
+@soaringlys
+@goldentrophy
+@thekillercrum
+@j0tunn_
+@yx_xd
+@notouriousknocks
+@techq
+@dizzytheone
+
+Special mentions found in strings: Quiving, Snek, Dizzy, Vecko, Knocks, Seele, etc. (Im not listing allat)
+
+Keybinds
+--------
+B → tp me me me
+N → Teleport to house
+C → reset me
+V → ff me
+M → respawn me
+
+Webhooks (Inactive)
+--------
+
+Webhooks:
+- https://discord.com/api/webhooks/1162529538060857444/JdfaoEZmnBiMgTJ-rCqq_sN7ttsCz48gHqQpIqJG_6njyJsAsM8usDcWoyRwaW76k9yv
+- https://discord.com/api/webhooks/1145547159501029396/wL1ERNhcL10SoTbLRi4nWOGeBMr33h4wWT2S8R2UtbBcqyqidX1Y2xX31mksuTmUFWu7
+- https://discord.com/api/webhooks/1147969791118807050/Kz9duzwK69dR1e6lUSmkjNp00VUXJFWBi_RqdXi8OSUAKViFS8M5qSD5EW0yHSVq2hPn
+
+Recovered Messages / Info
+-------------------------
+
+- "Script made by @punchy39_alt on Discord"
+- "Your account is too young. Therefore you can not play here."
+- "Unauthorised - punchy39 on discord to be buy the script or be rewhitelisted"
+- "your a whitelisted user (a speical one not like a normal person) you can now use cmds like !kick (user) or !unban (user)"
+- Join messages for specific users (Punchy, Snek, Dizzy, etc.)
+- Many crash / ban / gear ban notification messages
+
+Notes
+-----
+Unfortunately not source code :(
+
+
+Original config variables before obfuscated:
+- prefix
+- BlacklistedGear
+- gearwhitelisted
+- antip / antik / antib
+- welcome
+- daysold
+- doublecounter
+- nonpermban
+- rkickonjoin / hkickonjoin
+- autoExecuteCommands
+- gearbl1
+
+  Commands
+
+  CapySploit - Command List
+  =========================
+
+Admin / Moderation
+------------------
+ban (player)          - Blind and punish a player
+unban (player)
+kick (player)         - Fake kick
+gearban (player)      - Prevent player from using gears
+ungearban (player)
+wl (player)           - Whitelist from gear blacklist
+info                  - Show script info
+prefix                - Change command prefix
+!kick / !unban / !capycheck  (special whitelist commands)
+
+Crashes / Lags
+--------------
+silc / silc2          - Silent crash (persons299)
+gcrash                - Instant crash
+ocrash                - Orinthian Sword & Shield crash
+scrash                - Skateboard crash
+vgc                   - Vampire gear crash
+sil                   - Silent crash (no message)
+purge                 - Crash other players (persons299 + antir)
+shutdown              - Cooler silent crash
+carlag                - Heavy lag
+pmlag (player)        - Spam PM to lag
+lag (player)          - Spam commands to lag
+
+Rocket / Hat / Kick
+-------------------
+rkick (player)        - Rocket kick (use antir first)
+hkick (player)        - Hat lag kick
+hka                   - Kick all other players
+antir / unantir       - Block rockets from loading
+antihatlag / unantihatlag
+
+Gear
+----
+rg                    - Give random gear
+gs (gear name)        - Search Roblox catalog for gear
+etools / utools       - Equip / use all tools
+gear me (id) / ungear me
+
+Map / World
+-----------
+reg                   - Regen admin pads
+grab / lg / unlg      - Grab / loopgrab pads
+toreg / vtoreg / hreg / movereg / delreg / fixreg
+gbp / gbp2 / gbp3 / fixbp / vfixbp / movebp / hidebp
+cobby / tobby / moveo / fixo / owall
+fixp / messp          - Fix / randomize map paint
+movebwall / movelwall / moverwall / fixbwall / fixrwall / fixlwall / fixbox / movebox
+removehfloor / movehfloor / fixhfloor
+rwater (num)          - Remove water
+stone                 - Turn map to stone
+cmap (color)          - Color map (black white red green blue purple yellow brown pink bubblegum)
+color (r g b)         - Full map RGB color
+clean                 - Clean map
+theme (night)         - Lighting theme
+cage                  - Turn obby into cage
+fix                   - Fix collisions + gravity
+fixcam                - Fix camera
+fixspawn / vspawn / centerspawn
+
+Troll / Fun
+-----------
+capy / capybara (player)
+wash (player)         - Turn into washing machine
+potato (player) / unicorn (player) / cube (player) / miniman (player)
+dog / undog / bighead
+clone (num)           - Spam clones
+tmon (num)            - Spam TMon (throws chicken)
+lama (num)            - Spam llamas
+banhammer + mode (fling / ban / furry)
+name / unname / char / unchar
+paint / unpaint / shirt / pants / hat / unhat
+fly / skydive / unskydive / freeze / thaw / sit / spin / unspin
+invis / uninvis / god / ungod / ff / unff
+size / unsize / speed / setgrav
+blind / unblind / stun / jail / explode / smoke / bonfire / trail / particle
+fling / pfling / ifling / pinball
+breakanim (player)
+house                 - Teleport to house
+rj                    - Rejoin
+shop                  - Server hop
+
+Railgun / Weapons
+-----------------
+crail                 - Circle of railguns around you
+prail / prail2        - Penis railguns
+srail (player) / rail (player)
+rs (player) / rrs (player)  - Rail circle / rainbow version
+ls (player)           - Laser version
+del (player)          - Spam lasers
+bomb (player)
+nuke (range) (amount)
+pow                   - Spam railguns at mouse
+
+Music / Audio
+-------------
+music (1-53)
+hook / unhook         - Hook music so others can't pause it
+pause / resume / skip (seconds)
+audiolog              - Log playing audios
+vis / novis / revis / vspeed / vsize / parts / vcolor / padd / gvis
+antisound / unantisound
+
+Utility
+-------
+spam (cmd) / stop / super
+ping
+btools                - Server-side btools
+esp (on/off)
+iy                    - Execute Infinite Yield
+dex                   - Execute Dark Dex
+emoji
+namec (player)        - Copy username (for gear whitelist)
