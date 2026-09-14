@@ -1,5 +1,5 @@
 ## Updated Loadstring for if i add new variables
-ps: if you find this and play khols admin house on roblox dm me to get whitelisted to this script or it witll crash you (this dosent aply to whitelisted people already)
+ps: if you find this and play khols admin house on roblox dm me to get whitelisted to this script or it witll crash you (this dosent aply to whitelisted people already) (no longer applicable as of  9/13/26 @kitinss on discord)
 ```lua
 --[[
  ██████╗ █████╗ ██████╗ ██╗   ██╗███████╗    ███████╗██████╗ ██╗      ██████╗ ██╗████████╗
